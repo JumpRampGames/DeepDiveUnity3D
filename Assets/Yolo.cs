@@ -10,7 +10,9 @@ public class Yolo : MonoBehaviour
 	{
 		Debug.Log("YOLO "+Target);
 
+#if UNITY_IOS
 		Debug.Log("Live from a "+UnityEngine.iOS.Device.generation+" device!");
+#endif
 	}
 
 	void Update ()
