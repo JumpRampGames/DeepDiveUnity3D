@@ -1,0 +1,45 @@
+/Library/
+/Temp/
+/PC
+/IOS
+/*.csproj
+/*.sln
+/LocalCache
+/*.unityproj
+
+*.userprefs
+*.suo
+*.user
+obj
+bin
+.vs
+*.DS_Store
+*.mdb
+*.mdb.meta
+
+/UnityVS.Lucktastic.sln.ide
+/UnityVS.Lucktastic-Unity.sln.ide
+/Assets/3rdParty/UnityVS/Editor/UnityVS.VersionSpecific.dll
+/Assets/3rdParty/UnityVS/Editor/UnityVS.VersionSpecific.dll.meta
+/Assets/StreamingAssets/build_info.txt.meta
+/Assets/StreamingAssets/build_info.txt
+
+# Doxygen Documentation Generation
+/Doxyfiles/GeneratedDocumentation/*
+!/Doxyfiles/GeneratedDocumentation/ReadMe.txt
+
+# Generated assets for the opportunity previewer
+Assets/StreamingAssets/generated.html
+Assets/StreamingAssets/generated.html.meta
+/TapjoyXcodeUpdatePostBuild.log
+/AdjustPostBuildAndroidLog.txt
+/AdjustPostBuildiOSLog.txt
+
+# Ignore NuGet Packages
+*.nupkg
+# Ignore the packages folder
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
