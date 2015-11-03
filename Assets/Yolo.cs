@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class Yolo : MonoBehaviour 
 {
@@ -10,6 +9,8 @@ public class Yolo : MonoBehaviour
 	void Start () 
 	{
 		Debug.Log("YOLO "+Target);
+
+		Debug.Log("Live from a "+UnityEngine.iOS.Device.generation+" device!");
 	}
 
 	void Update ()
