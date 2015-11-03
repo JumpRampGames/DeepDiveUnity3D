@@ -15,5 +15,8 @@ public class Yolo : MonoBehaviour
 	{
 		var particles = GetComponent<ParticleSystem>();
 		particles.startColor = Color.red;
+
+		var capsule = GetComponent<Transform>();
+		capsule.eulerAngles += new Vector3(0f, 0f, 1f);
 	}
 }
