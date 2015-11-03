@@ -10,4 +10,10 @@ public class Yolo : MonoBehaviour
 	{
 		Debug.Log("YOLO "+Target);
 	}
+
+	void Update ()
+	{
+		var particles = GetComponent<ParticleSystem>();
+		particles.startColor = Color.red;
+	}
 }
